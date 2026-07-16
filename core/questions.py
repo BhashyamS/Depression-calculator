@@ -1,0 +1,30 @@
+RESPONSE_OPTIONS = {
+    0: "Never",
+    1: "Sometimes",
+    2: "Often",
+    3: "Almost Always",
+}
+
+DASS21_QUESTIONS = [
+    {"id": 1, "category": "Stress", "text": "I found it hard to wind down."},
+    {"id": 2, "category": "Anxiety", "text": "I was aware of dryness of my mouth."},
+    {"id": 3, "category": "Depression", "text": "I couldn't seem to experience any positive feeling at all."},
+    {"id": 4, "category": "Anxiety", "text": "I experienced breathing difficulty without physical exertion."},
+    {"id": 5, "category": "Depression", "text": "I found it difficult to work up the initiative to do things."},
+    {"id": 6, "category": "Stress", "text": "I tended to over-react to situations."},
+    {"id": 7, "category": "Anxiety", "text": "I experienced trembling."},
+    {"id": 8, "category": "Stress", "text": "I felt that I was using a lot of nervous energy."},
+    {"id": 9, "category": "Anxiety", "text": "I was worried about situations in which I might panic."},
+    {"id": 10, "category": "Depression", "text": "I felt that I had nothing to look forward to."},
+    {"id": 11, "category": "Stress", "text": "I found myself getting agitated."},
+    {"id": 12, "category": "Stress", "text": "I found it difficult to relax."},
+    {"id": 13, "category": "Depression", "text": "I felt down-hearted and blue."},
+    {"id": 14, "category": "Stress", "text": "I was intolerant of anything that kept me from getting on with what I was doing."},
+    {"id": 15, "category": "Anxiety", "text": "I felt I was close to panic."},
+    {"id": 16, "category": "Depression", "text": "I was unable to become enthusiastic about anything."},
+    {"id": 17, "category": "Depression", "text": "I felt I wasn't worth much as a person."},
+    {"id": 18, "category": "Stress", "text": "I felt that I was rather touchy."},
+    {"id": 19, "category": "Anxiety", "text": "I was aware of the action of my heart without physical exertion."},
+    {"id": 20, "category": "Anxiety", "text": "I felt scared without any good reason."},
+    {"id": 21, "category": "Depression", "text": "I felt that life was meaningless."},
+]
