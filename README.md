@@ -43,3 +43,28 @@ a qualified professional.
 
 Push the repository to GitHub, then deploy through Streamlit Community Cloud with
 `app.py` as the main file.
+
+# MindSense Machine Learning Add-On
+
+This add-on forecasts next-week self-reported DASS-21 scores using:
+current scores, sleep, exercise, mood, stressful events, social connection, and week number.
+
+The model is a multi-output Random Forest regressor trained on synthetic data.
+
+## Install
+
+# MindSense Kaggle Actigraphy ML
+
+Uses `arashnic/the-depression-dataset`, which contains minute-level actigraphy files for condition and control groups.
+
+## Run
+
+```powershell
+python -m pip install -r requirements_kaggle_ml.txt
+python -m ml.download_kaggle_data
+python -m ml.build_actigraphy_dataset
+python -m ml.train_kaggle_model
+python -m streamlit run app.py
+```
+
+Important: this is a portfolio demonstration, not a clinical model.

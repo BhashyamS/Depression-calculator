@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.9375,
+  "precision": 0.4727,
+  "recall": 0.7536,
+  "f1": 0.581,
+  "roc_auc": 0.9577,
+  "confusion_matrix": [
+    [
+      1073,
+      58
+    ],
+    [
+      17,
+      52
+    ]
+  ],
+  "classification_report": {
+    "Lower pattern": {
+      "precision": 0.9844036697247707,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.9662314272850068,
+      "support": 1131.0
+    },
+    "Elevated pattern": {
+      "precision": 0.4727272727272727,
+      "recall": 0.7536231884057971,
+      "f1-score": 0.5810055865921788,
+      "support": 69.0
+    },
+    "accuracy": 0.9375,
+    "macro avg": {
+      "precision": 0.7285654712260217,
+      "recall": 0.8511705685618729,
+      "f1-score": 0.7736185069385928,
+      "support": 1200.0
+    },
+    "weighted avg": {
+      "precision": 0.9549822768974144,
+      "recall": 0.9375,
+      "f1-score": 0.9440809414451692,
+      "support": 1200.0
+    }
+  },
+  "training_rows": 4800,
+  "test_rows": 1200,
+  "data_type": "Synthetic portfolio demonstration data"
+}

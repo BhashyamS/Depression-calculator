@@ -1,0 +1,14 @@
+{
+  "next_depression_score": {
+    "mae": 2.37,
+    "r2": 0.934
+  },
+  "next_anxiety_score": {
+    "mae": 2.374,
+    "r2": 0.937
+  },
+  "next_stress_score": {
+    "mae": 2.497,
+    "r2": 0.921
+  }
+}
